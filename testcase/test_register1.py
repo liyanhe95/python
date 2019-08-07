@@ -9,7 +9,7 @@ max_mobile = None
 @ddt
 class TestRegister(unittest.TestCase):
     do_excel = DoExcel(contants.case_file)
-    cases = do_excel.get_data('register1')
+    cases = do_excel.get_data('register')
 
 
     @classmethod
